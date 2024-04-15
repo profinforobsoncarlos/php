@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Exercício 2</title>
+    
+</head>
+<body>
+    
+    <div>
+        <form action="dados2.php" method="get">
+            <h2>Dados Funcionário</h2>
+            <label for="nm_func">Funcionário(a):</label>
+            <input type="text" name="nm_func" placeholder="Informe o nome" size="22" id="nm_func"/>
+            <br/>
+            <label for="sal_fun">Salário:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" name="sal_fun" placeholder="R$" step="0.01" id="sal_fun"/>
+            <br/>
+            <label for="ano_adms">Ano da Admissão:</label>
+            <input type="number" name="ano_adms" placeholder="04 dígitos" id="ano_adms"/>
+            <br/>
+            <button type="submit">Enviar</button>
+
+        </form>        
+    </div>
+</body>
+</html>

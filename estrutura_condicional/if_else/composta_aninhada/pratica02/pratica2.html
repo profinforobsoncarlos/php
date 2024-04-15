@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 2</title>
+</head>
+<body>
+    <!--Ex002:
+        Ler o ano de nascimento de uma pessoa e mostrar
+        - se ela tiver menos que 16 anos mostre:
+        NÃO PODE VOTAR.
+        - se tiver entre 16 e 17 mostre:
+        VOTO OPCIONAL.
+        - se tiver 18 anos ou mais mostre:
+        VOTO OBRIGATÓRIO.
+    -->
+    <div>
+        <h2>Saiba se você já pode Votar:</h2>
+        <form action="pratica2.php" method="get">
+            <label for="ano">Informe Ano de Nasc.:</label><br>
+            <input type="number" name="ano" placeholder="4 dígitos" id="ano_nasc"/>
+            <br/>
+            <input type="submit" value="Verificar"/>
+        
+        </form>
+
+    </div>
+    
+</body>
+</html>
